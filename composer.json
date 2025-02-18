@@ -1,0 +1,30 @@
+{
+    "name": "rober/mi-tienda",
+    "description": "Proyecto Tienda",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "DBTienda\\": "DBTienda/",
+            "Rober\\MiTienda\\": "src/",
+            "Controllers\\": "./src/Controllers",
+            "Models\\": "./src/Models",
+            "Lib\\": "./src/Lib",
+            "Views\\": "./src/Views",
+            "Repositories\\": "./src/Repositories",
+            "Services\\": "./src/Services",
+            "Routes\\": "./src/Routes",
+            "src\\Controllers\\": "src/Controllers" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Roberto",
+            "email": "robertoz1777@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "pagerfanta/pagerfanta": "^4.7"
+    }
+}
